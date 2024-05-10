@@ -51,6 +51,7 @@ gem 'simple_form'
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
+  gem "byebug", platforms: %i[ mri mswin mswin64 mingw x64_mingw ]
 end
 
 group :development do
